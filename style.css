@@ -1,0 +1,74 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 30%;
+}
+
+.recept {
+    color: rgb(211, 189, 62);
+}
+
+.enjoy, .recept {
+    display: flex;
+    font-size: 36px;
+    justify-content: center;
+    padding: 5px;
+}
+
+table {
+    width: 50%;
+    margin: auto;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+thead {
+    background-color: rgb(57, 121, 240);
+}
+
+tbody {
+    background-color: rgb(167, 215, 255);
+}
+
+.enjoy {
+    color: rgb(231, 113, 2);
+}
+
+ol {
+    margin: auto;
+    width: 50%;
+}
+
+li {
+    padding: 2px;
+}
+
+.container {
+    box-shadow: 0 0 20px grey;
+    width: 960px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 40px;
+}
+
+body {
+    font-family: Arial;
+    background-color: aliceblue;
+    padding: 40px;
+}
+
